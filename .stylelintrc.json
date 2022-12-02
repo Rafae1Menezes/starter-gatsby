@@ -10,6 +10,7 @@
       {
         "ignorePseudoClasses": ["global", "local"]
       }
-    ]
+    ],
+    "import-notation": "string"
   }
 }
