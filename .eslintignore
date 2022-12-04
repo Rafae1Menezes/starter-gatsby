@@ -5,4 +5,4 @@ src/types/**
 yarn.lock
 .cache/
 public/
-.eslintrc.js
+*.js
