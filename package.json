@@ -8,18 +8,17 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "dev": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint 'src/**/*.tsx'",
     "scss-lint": "stylelint 'src/**/*.scss'",
     "scss-types": "typed-scss-modules  --implementation sass -e named 'src/**/*.scss'",
     "scss-types-watch": "yarn scss-types --watch",
     "prettifyTS": "prettier 'src/**/*.tsx' --write",
     "prettifyCSS": "prettier 'src/**/*.scss' --write",
-    "typecheck": "tsc --noEmit"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "gatsby": "^5.2.0",
