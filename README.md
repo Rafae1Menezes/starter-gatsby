@@ -4,51 +4,61 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  Gatsby TypeScript Starter
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+1.  **Instale as dependências.**
 
     ```shell
     # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
+    yarn
     ```
 
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+2.  **Comece a desenvolver**
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    yarn dev
     ```
 
-3.  **Open the code and start customizing!**
+    Your site is now running at http://localhost:8000
 
-    Your site is now running at http://localhost:8000!
+    Edite `src/pages/index.tsx` para ver seu site atualizando em tempo real.
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+3.  **Gere as tipagens de .scss**
 
-4.  **Learn more**
+    ```shell
+    yarn scss-types-watch
+    ```
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+4.  **Rode os testes**
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    ```shell
+    yarn test
+    ```
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+5.  **Estilizando todos os documentos**
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    ```shell
+    yarn prettifyTS
+    yarn prettifyCSS
+    ```
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+6.  **Caso necessário, delete os arquivos temporários do Gatsby**
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    ```shell
+    yarn clean
+    ```
 
-## 🚀 Quick start (Gatsby Cloud)
+7.  **Gerando o build**
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+    ```shell
+    yarn build
+    ```
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+8.  **Rodando o build**
+
+    ```shell
+    yarn serve
+    ```
