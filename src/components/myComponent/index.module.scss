@@ -1,0 +1,18 @@
+@import "../../sass/variables";
+
+.titulo {
+  color: $roxo;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+}
+
+.images {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  filter: drop-shadow(1px 1px 1px $roxo);
+}

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent renders correctly 1`] = `
+[
+  <h2
+    className="titulo"
+  >
+    Meu Componente
+  </h2>,
+  <div
+    className="images"
+  >
+    <img
+      alt="Artistas"
+      height={346}
+      placeholder="blurred"
+      src="../../images/artistas.png"
+      width={374}
+    />
+    <test-file-stub
+      className="image"
+    />
+  </div>,
+]
+`;

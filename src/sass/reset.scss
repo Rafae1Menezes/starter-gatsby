@@ -1,0 +1,117 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+textarea,
+select,
+option,
+table,
+th,
+td,
+blockquote,
+hr,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer,
+article,
+nav,
+section {
+  display: block;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: none;
+  word-wrap: break-word;
+}
+
+input,
+textarea,
+button,
+a,
+select {
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+img {
+  border: 0;
+  font-size: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  overflow: hidden;
+}
+
+body,
+textarea,
+input,
+select,
+option,
+button,
+a {
+  color: #424242;
+}
+
+body,
+textarea,
+input,
+select,
+option,
+button {
+  font: 13px/1 $font-montserrat;
+}
+
+textarea,
+input,
+select,
+option,
+button {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  font-size: inherit;
+  line-height: 1.2;
+}
