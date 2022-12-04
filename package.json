@@ -15,6 +15,8 @@
     "clean": "gatsby clean",
     "lint": "eslint 'src/**/*.tsx'",
     "scss-lint": "stylelint 'src/**/*.scss'",
+    "scss-types": "typed-scss-modules  --implementation sass -e named 'src/**/*.scss'",
+    "scss-types-watch": "yarn scss-types --watch",
     "prettifyTS": "prettier 'src/**/*.tsx' --write",
     "prettifyCSS": "prettier 'src/**/*.scss' --write",
     "typecheck": "tsc --noEmit"
@@ -53,6 +55,7 @@
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-scss": "^4.3.0",
+    "typed-scss-modules": "^7.0.1",
     "typescript": "^4.8.4"
   }
 }
