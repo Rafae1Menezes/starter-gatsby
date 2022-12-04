@@ -16,11 +16,6 @@
     "strict": true,
     "typeRoots": ["./node_modules/@types", "./src/types"]
   },
-  "include": [
-    "./src/**/*",
-    "./gatsby-node.ts",
-    "./gatsby-config.ts",
-    "./plugins/**/*"
-  ],
+  "include": ["./**/*"],
   "exclude": ["./.cache", "./public"]
 }
