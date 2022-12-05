@@ -6,3 +6,24 @@
   src: local("Montserrat Regular"),
     url("../font/montserrat-regular_v3.woff2") format("woff2");
 }
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Regular"),
+    url("../font/Inter-Regular.woff2") format("woff2"),
+    url("../font/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  //sass-lint:disable no-misspelled-properties
+  font-display: swap;
+  //sass-lint:enable no-misspelled-properties
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Bold"), url("../font/Inter-Bold.woff2") format("woff2"),
+    url("../font/Inter-Bold.woff") format("woff");
+  font-weight: 700;
+  //sass-lint:disable no-misspelled-properties
+  font-display: swap;
+  //sass-lint:enable no-misspelled-properties
+  font-style: normal;
+}
