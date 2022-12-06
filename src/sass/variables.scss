@@ -1,2 +1,43 @@
 $roxo: #6f45e8;
 $font-montserrat: "Montserrat", sans-serif;
+
+// grid widths
+$width-desktopMedium: 1366px;
+$width-desktop: 1188px;
+$width-tablet: 1024px;
+
+// size queries
+$phone: "max-width:767px";
+$tabletMediumUp: "min-width:768px";
+$tabletMediumDown: "max-width:1023px";
+$tabletUp: "min-width:1024px";
+$tabletDown: "max-width:1365px";
+$desktopMediumUp: "min-width:1366px";
+$desktopMediumDown: "max-width:1919px";
+$desktop: "min-width:1920px";
+
+$bg-gradient-black: radial-gradient(
+  109.25% 186.46% at 41.51% -59.64%,
+  #1c1c1c 0%,
+  #000000 100%
+);
+$bg-gradient-green: linear-gradient(139.09deg, #5bd576 60.81%, #57a943 107.28%);
+
+$color-lilac: #d0a0ff;
+$color-black: #000000;
+$color-dark-grey-1: #040404;
+$color-dark-grey-2: #0c0c0c;
+$color-dark-grey-3: #151515;
+$color-grey-1: #2c2c2c;
+$color-grey-2: #505050;
+$color-light-grey-1: #9e9e9e;
+$color-light-grey-2: #a9a9a9;
+$color-light-grey-3: #bdbdbd;
+$color-white: #ffffff;
+
+$color-button-primary: #fbe254;
+$color-button-primary-hover: #ccb639;
+
+$font-inter: "Inter", sans-serif;
+$font-regular: 400;
+$font-bold: 700;

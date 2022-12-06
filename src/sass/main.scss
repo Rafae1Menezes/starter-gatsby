@@ -1,1 +1,10 @@
 @import "./reset";
+
+.container{
+    background: $bg-gradient-black;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
